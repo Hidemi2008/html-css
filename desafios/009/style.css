@@ -1,0 +1,49 @@
+#esquerda{
+    height: 100vh;
+    width: 50%;
+    background-color:white;
+    float: left;
+    }
+    #direita{
+        height: 100vh;
+        width: 50%;
+        background-color: brown;
+        float: right;
+    }
+    h1{
+        padding-left: 30%;
+        padding-right: 10%;
+    }
+    #input{
+        width: 25%;
+        margin-right: 15%;
+        margin-left: 30%;
+    
+    }
+    #label{
+        width: 25%;
+        margin-right: 15%;
+        margin-left: 30%;
+    }
+    hr{
+        width: 50%;
+        margin-right: 10%;
+        margin-left: 25%;
+    }
+    #p{
+        margin-right: 15%;
+        margin-left: 30%;
+    }
+    #botao{
+        width: 25%;
+        margin-right:15%;
+        margin-left: 30%;
+        background-color: aqua;
+        padding: 20px 20px 20px 20px;
+        border-radius: 15%;
+    }
+    #inscrição{
+        margin-bottom: 25%;
+        width: 100%;
+        height: 100vh;
+    }
