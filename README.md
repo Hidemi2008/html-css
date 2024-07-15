@@ -3,4 +3,4 @@
 
  Estou aprendendo HTML e CSS
 
- <a href="https://hidemi2008.github.io/html-css/exercicios/ex001/index">Executar o exercício 001<a>
+ <a href="https://hidemi2008.github.io/html-css/exercicios/ex001/index">Executar o exercício 001</a>
