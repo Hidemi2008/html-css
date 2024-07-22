@@ -3,30 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo na tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
-            background-image:url(imagens/wallpaper002.jpg);
-            background-position: center center;
-            background-repeat: no-repeat;
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
             background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid blue;
             border-radius: 15px;
+
         }
+
+        /* shorthand background
+        color > image > position > repeat > attachment
+        */
     </style>
 </head>
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet suscipit deserunt obcaecati blanditiis sapiente beatae modi rem error possimus, dolore, eveniet aperiam! Earum corrupti, recusandae impedit cum nesciunt officia deserunt beatae ea aut enim sit neque maiores vel voluptate excepturi eaque illum nihil voluptatem, aspernatur nobis a facilis. Quam, quibusdam?</p>
+        <br>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum id iste explicabo inventore. Maxime, corrupti. Vero eligendi ut quam quis earum assumenda! Consequuntur iste nobis sint nemo? Delectus quis voluptatem tempore voluptates magni at quibusdam libero optio ea facere? Provident non id architecto facere cupiditate accusantium ullam necessitatibus. Iure, molestiae.</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, fugiat alias. Itaque magnam et mollitia quaerat perferendis praesentium facere sequi! Animi sed in labore doloribus officiis voluptatibus vel quod odio fuga eaque laboriosam, commodi soluta earum mollitia voluptatem fugit numquam nesciunt, voluptas consequuntur impedit libero corrupti fugiat magni autem. Excepturi earum ut, cupiditate eligendi laboriosam ea accusamus fugit facilis laborum.</p>
     </main>
 </body>
 </html>
