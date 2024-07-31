@@ -9,17 +9,32 @@
             font-family: Arial, Helvetica, sans-serif;
 
         }
+        caption{
+            padding: 5px;
+            font-size: 3vh;
+            font-weight: bold;
+
+        }
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th{
             border: 1px solid black;
             padding: 10px;
         }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+        tbody >tr:nth-child(2n) {
+            background-color: lightgray;
         }
     </style>
 </head>
@@ -28,6 +43,7 @@
     <!--
     Anatomia para tablelas grandes
     table
+        caption
         thead
             tr,td,th
         tbody
@@ -36,10 +52,11 @@
             tr,td,th
     -->
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
                 <tr>
-                    <th>Estado</th>
-                    <th>População</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col">População</th>
                 </tr>
         </thead>
         <tbody>
@@ -58,10 +75,11 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td>210.147.125</td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, asperiores? Consequuntur quas nobis dolorum illo ipsa temporibus sint tempore exercitationem inventore laborum! Ab, rem fugit? Nostrum incidunt deleniti vitae praesentium vero eos dolores ipsum nulla quibusdam at. Architecto placeat, cum sapiente consectetur rerum laboriosam eum nesciunt ut delectus unde quasi, maiores quisquam aperiam reiciendis nisi. Est fugit inventore facere explicabo iusto distinctio, cumque odio. Eligendi eum omnis quod, voluptas sed dolor. Dolor corrupti autem, nobis ut ullam, magni mollitia amet est soluta dolorum quia architecto nulla aspernatur doloribus quidem recusandae dicta sint tempore adipisci! Est dolor doloribus iste optio illo?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde earum, assumenda ratione distinctio aliquid aut ipsa excepturi. Voluptate, expedita? Eaque recusandae, alias consectetur autem iusto illum cumque illo delectus saepe?Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequuntur ducimus, possimus laudantium autem perferendis. Dignissimos tempore corporis, aliquid atque dicta repellat, autem quod odit recusandae vero soluta sequi iusto similique consectetur esse nostrum quis! Porro at tempora, laborum aut ea cumque culpa sit quia ad saepe sunt amet! Beatae voluptas asperiores, autem enim cumque quaerat! Est voluptatum assumenda earum ipsam libero sit non maiores, consequuntur eligendi officiis nostrum ipsum tempora dignissimos rerum! Delectus quod consequuntur at vel nemo aspernatur molestiae similique? Nobis quas modi natus necessitatibus libero praesentium dolor dolore, magnam sed est vel obcaecati omnis a, ut doloribus.lorem100 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ex iure quis culpa quod placeat, vitae nam facilis reprehenderit tenetur inventore nobis, exercitationem officia laborum, impedit unde neque amet distinctio autem? Repellendus corrupti autem animi laboriosam dolorem corporis aspernatur commodi consequuntur, quisquam doloremque ipsam molestias assumenda ducimus eum, maiores reprehenderit at perspiciatis quo quibusdam! Porro mollitia tenetur fugiat voluptate modi facilis, vitae expedita molestiae repudiandae totam iste cum quae ducimus facere repellat! Hic corrupti rem incidunt tenetur maiores, id inventore explicabo aperiam accusamus, numquam error sapiente assumenda ut voluptatum fuga animi aliquid eveniet? Nostrum sint cumque magni natus officiis qui!</p>
 </body>
 </html>
