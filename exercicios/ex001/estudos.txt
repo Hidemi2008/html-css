@@ -1,0 +1,99 @@
+Resumo sobre HTML e CSS
+
+Tags básicas
+H1 : Título;
+p: Parágrafo;
+hr: linha;
+br: quebra de linha;
+img: adicionar imagens;
+strong: negrito;
+ol: criar a lista;
+li; a lista em si;
+dt: Descrição;
+dd: Definição;
+a : adicionar links;
+a + target + rel: links mas você não saí da sua pagina;
+picture: adicionar imagem e modificar ela;
+video: adicionar vídeos;
+div: elemento de caixa;
+header; tag semântica de cabeçalho;
+main; tag semântica do corpo;
+article; tag semântica de conteúdo individual;
+nav; tag semântica de links;
+footer; tag semântica de rodapé;
+table: criar a tabela;
+tr: linha da tabela;
+tudo: celulas da tabela;
+caption: título da tabela;
+scope: atribuir linha ou coluna;
+codspan; faz sua tabela ocupar mais de uma coluna;
+rolspan: faz sua celula ocupar mais linhas;
+form: semântica para formulários;
+input: questionário;
+label: atribui paragrafo para o input via id;
+minlength: tamanho mínimo;
+maxlength: tamanho máximo;
+required: torna obrigatório;
+placeholder: dicas para o usuário;
+
+
+
+
+
+
+Tags de CSS
+height: determina a altura;
+width: determina a largura;
+padding: espaço dentro do conteúdo;
+margin: margem dentro do conteúdo;
+border: Criação de borda no conteúdo;
+outline: Linha dentro do conteúdo;
+:root= --variável:valor; /* Você cria uma variável*/
+* = elemento geral;
+text-indent: recuo paragrafo;
+background-attachment: fixed; criara um efeito de dimensão.
+Background-image:linear-gradient(posicão,cor1,cor2); para criar um degrade.
+Background-image: url(Imagem); para adicionar uma imagem.
+Background-size: tamanho da imagem;
+background-repeat: repetição da imagem;
+background-position: posição da imagem;
+background-attachment: rolagem da imagem;
+background; color>imagem>position>repeat>attachment
+calc : você pode fazer contas em CSS;
+
+
+
+
+centralização vertical
+position: absolute; no conteúdo.
+Left:50%; top:50%;
+tranform: translate(-50%,-50%)
+
+media queries
+    <link rel="stylesheet" href="estilos/media-query.css">
+@media screen and (min-width: valor){}
+
+Flex box
+display: flex; Elemento pai.
+Flex-direction: row,row-reverse,column,column-reverse
+flex-wrap: nowrap,rap,wrap-reverse;
+flex-flow: É a shorhand de flex-direction e flex-wrap;
+justify-contend: flex-start,flex-end,center,space-between,space-evenly,space-around;Aonde vai ficar o seu conteúdo pelo eixo principal.
+Align-items:stretch,flex-start,flex-end,center; Aonde vai ficar o seu conteúdo pelo eixo secundário.
+Justify-contend:center; + align-items:center; Você ira centralizar o conteúdo.
+Align-contend:stretch,flex-start,flex-end,center,space-betwen,space-evenly,space-around; Alinhar elementos compactados(filhos) no eixo principal.
+Order: pega a ordem desejada;
+Align-self;auto,flex-start,flex-end,center,strech; Alinhar elementos compactados no eixo secundário.
+Flex-basis: valor; Dira o valor das suas caixas.
+Flex-shrink: encolhe a caixa;
+flex-grow: aumenta a caixa;
+
+
+
+
+Medidas absolutas
+cm,mm,in,px,pt,pc
+
+Medidas relativas
+em,ex,rem,vw,vh,%
+
